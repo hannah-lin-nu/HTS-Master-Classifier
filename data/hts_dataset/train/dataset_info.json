@@ -1,0 +1,66 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cross_rulings_hts_dataset_for_tariffs",
+  "dataset_size": 23193936,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/flexifyai/cross_rulings_hts_dataset_for_tariffs@f81ee3eb37d49e80c222f2640530e721087d5c70/train.jsonl": {
+      "num_bytes": 23745218,
+      "checksum": null
+    },
+    "hf://datasets/flexifyai/cross_rulings_hts_dataset_for_tariffs@f81ee3eb37d49e80c222f2640530e721087d5c70/validation.jsonl": {
+      "num_bytes": 260489,
+      "checksum": null
+    },
+    "hf://datasets/flexifyai/cross_rulings_hts_dataset_for_tariffs@f81ee3eb37d49e80c222f2640530e721087d5c70/test.jsonl": {
+      "num_bytes": 257477,
+      "checksum": null
+    }
+  },
+  "download_size": 24263184,
+  "features": {
+    "messages": [
+      {
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ]
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 47457120,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 22698904,
+      "num_examples": 18254,
+      "dataset_name": "cross_rulings_hts_dataset_for_tariffs"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 249012,
+      "num_examples": 200,
+      "dataset_name": "cross_rulings_hts_dataset_for_tariffs"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 246020,
+      "num_examples": 200,
+      "dataset_name": "cross_rulings_hts_dataset_for_tariffs"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
