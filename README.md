@@ -64,7 +64,7 @@ HTS-Master-Classifier/
 │   └── model_results/
 │
 ├── README.md
-└── requirements.txt
+
 ```
 
 ## Methodology
