@@ -46,8 +46,6 @@ Initial dataset summary:
 
 ## Repository Structure
 
-Suggested repository structure:
-
 ```text
 HTS-Master-Classifier/
 │
